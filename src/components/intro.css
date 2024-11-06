@@ -17,12 +17,13 @@
     align-items: flex-end;
 
     .point {
-        width: 11px;
-        height: 11px;
+        margin-left: 1px;
+        width: 10px;
+        height: 10px;
 
+        border: 1px solid grey;
+        background: white;
         border-radius: 50%;
-
-        background: black;
     }
 
     .section {
@@ -39,7 +40,7 @@
         white-space: wrap;
         overflow: hidden;
 
-        border-right: 1px solid lightgrey;
+        border-right: 1px dashed lightgrey;
 
         display: flex;
         flex-direction: column;
