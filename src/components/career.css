@@ -1,0 +1,12 @@
+.career-wrap {
+    display: flex;
+    width: 100vw;
+    max-height: 100vh;
+    height: 2000px;
+
+    .list-title {
+        height: fit-content;
+        position: sticky;
+        top: 4vh;
+    }
+}
